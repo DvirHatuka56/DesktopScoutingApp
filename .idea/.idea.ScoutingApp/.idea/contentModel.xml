@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\DVIR H\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\DVIR H\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\DVIR H\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_ScoutingApp.-1907545934.00" t="ExcludeRecursive" />
+    <e p="C:\Users\DVIR H\Source\Repos\DesktopScoutingApp" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ScoutingApp" t="IncludeRecursive">
+        <e p="AddGame.xaml" t="Include" />
+        <e p="AddGame.xaml.cs" t="Include" />
+        <e p="AddPit.xaml" t="Include" />
+        <e p="AddPit.xaml.cs" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Connections.cs" t="Include" />
+        <e p="CustomListView.xaml" t="Include" />
+        <e p="CustomListView.xaml.cs" t="Include" />
+        <e p="CustomListViewColumn.xaml" t="Include" />
+        <e p="CustomListViewColumn.xaml.cs" t="Include" />
+        <e p="CustomSlider.xaml" t="Include" />
+        <e p="CustomSlider.xaml.cs" t="Include" />
+        <e p="DataLists.cs" t="Include" />
+        <e p="DesktopScoutingApp.csproj" t="IncludeRecursive" />
+        <e p="GameDetails.xaml" t="Include" />
+        <e p="GameDetails.xaml.cs" t="Include" />
+        <e p="GameTab.xaml" t="Include" />
+        <e p="GameTab.xaml.cs" t="Include" />
+        <e p="Images" t="Include">
+          <e p="flash_icon.jpg" t="Include" />
+          <e p="new_icon.ico" t="Include" />
+          <e p="settings_icon.png" t="Include" />
+        </e>
+        <e p="LogIn.xaml" t="Include" />
+        <e p="LogIn.xaml.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="MsgLabel.xaml" t="Include" />
+        <e p="MsgLabel.xaml.cs" t="Include" />
+        <e p="new_icon.ico" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PitDetails.xaml" t="Include" />
+        <e p="PitDetails.xaml.cs" t="Include" />
+        <e p="PitTab.xaml" t="Include" />
+        <e p="PitTab.xaml.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="ScoutingApp_TemporaryKey.pfx" t="Include" />
+        <e p="Settings.cs" t="Include" />
+        <e p="SettingsWindow.xaml" t="Include" />
+        <e p="SettingsWindow.xaml.cs" t="Include" />
+      </e>
+      <e p="ScoutingApp.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

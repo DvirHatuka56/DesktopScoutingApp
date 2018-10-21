@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45a2df42-501c-424b-9160-e35f941296c8" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-39186102">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="14" />
+          <entry key="cs" value="39" />
+          <entry key="jpg" value="3" />
+          <entry key="json" value="2" />
+          <entry key="png" value="1" />
+          <entry key="settings" value="1" />
+          <entry key="xaml" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="39" />
+          <entry key="Config" value="14" />
+          <entry key="Image" value="4" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XAML" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="config" value="59" />
+          <entry key="cs" value="2340" />
+          <entry key="xaml" value="736" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="2340" />
+          <entry key="Config" value="59" />
+          <entry key="XAML" value="736" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DesktopScoutingApp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScoutingApp/MainWindow.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="847">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+              <folding>
+                <marker date="1536695531282" expanded="true" signature="0:3983" ph="&lt;&lt;Window.Content&gt;&#10;        &lt;StackPanel Margin=&quot;10&quot;&gt;&#10;            &lt;Border&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt;&#10;            &lt;TabControl&gt;&#10;                &lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;                &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;            &lt;/TabControl&gt;&#10;        &lt;/StackPanel&gt;&#10;    &lt;/Window.Content&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3333:3358" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt; &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt; &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt; &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3333:3380" ph="&lt;&lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3333:3951" ph="&lt;&lt;Border&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt; &lt;TabControl&gt;&#10;                &lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;                &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;            &lt;/TabControl&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3333:3973" ph="&lt;&lt;StackPanel Margin=&quot;10&quot;&gt;&#10;            &lt;Border&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt;&#10;            &lt;TabControl&gt;&#10;                &lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;                &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;            &lt;/TabControl&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3393:3929" ph="&lt;&lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt; &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3422:3655" ph="&lt;&lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3466:3628" ph="&lt;&lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3498:3599" ph="&lt;&lt;local:GameTab/&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3672:3903" ph="&lt;&lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3715:3876" ph="&lt;&lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;.../&gt;" />
+                <marker date="1536695531282" expanded="true" signature="3747:3847" ph="&lt;&lt;local:PitTab/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoutingApp/MainWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-433">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1536694980940" expanded="false" signature="6:140" ph="..." />
+                <marker date="1536694980940" expanded="true" signature="163:1682" ph="{...}" />
+                <marker date="1536694980940" expanded="true" signature="170:318" ph="/// Interaction logic for MainWindow.xaml ... " />
+                <marker date="1536694980940" expanded="true" signature="419:1680" ph="{...}" />
+                <marker date="1536694980940" expanded="true" signature="453:499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+              <folding>
+                <marker date="1536691698629" expanded="true" signature="44:1777" ph="{...}" />
+                <marker date="1536691698629" expanded="true" signature="95:1775" ph="{...}" />
+                <marker date="1536691698629" expanded="true" signature="133:551" ph="{...}" />
+                <marker date="1536691698629" expanded="true" signature="621:783" ph="{...}" />
+                <marker date="1536691698629" expanded="true" signature="854:1015" ph="{...}" />
+                <marker date="1536691698629" expanded="true" signature="1168:1402" ph="{...}" />
+                <marker date="1536691698629" expanded="true" signature="1482:1769" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScoutingApp/Settings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+              <folding>
+                <marker date="1536683500953" expanded="false" signature="6:81" ph="..." />
+                <marker date="1536683500953" expanded="true" signature="104:3064" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="139:3062" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="162:240" ph="/// Password to access the server ... " />
+                <marker date="1536683500953" expanded="true" signature="301:366" ph="/// Ip of the server ... " />
+                <marker date="1536683500953" expanded="true" signature="421:488" ph="/// Port on the server ... " />
+                <marker date="1536683500953" expanded="true" signature="542:615" ph="/// Default IP of the server ... " />
+                <marker date="1536683500953" expanded="true" signature="685:760" ph="/// Default port on the server ... " />
+                <marker date="1536683500953" expanded="true" signature="829:932" ph="/// Loading the Games and Pits from the server at start up ... " />
+                <marker date="1536683500953" expanded="true" signature="1005:1091" ph="/// Loads the settings of the application ... " />
+                <marker date="1536683500953" expanded="true" signature="1132:1506" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="1524:1612" ph="/// Save the last password the user entered ... " />
+                <marker date="1536683500953" expanded="true" signature="1654:2191" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="2209:2482" ph="/// Checks if the given password is valid ... " />
+                <marker date="1536683500953" expanded="true" signature="2540:3056" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="2566:2952" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="2753:2823" ph="{...}" />
+                <marker date="1536683500953" expanded="true" signature="2988:3046" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.Content;</find>
+      <find>DataLi</find>
+      <find>MessageBox.Show(&quot;Can't connect to server...&quot;);</find>
+      <find>Submit</find>
+      <find>u</find>
+      <find>password</find>
+      <find>NetworkDetails</find>
+      <find>configFile</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Settings</replace>
+      <replace>config</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/AddGame.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CEDE6039-FF70-4EA1-A1B1-6D7D3EFD2290/70/97165ee2/Application.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/CustomSlider.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/PitTab.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/LogIn.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/CustomListView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/PitTab.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/GameDetails.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/GameTab.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/DataLists.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/ConfigureWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4546037-3D02-406C-AA6C-360C17465823/82/d62ce451/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E4546037-3D02-406C-AA6C-360C17465823/a1/358fd3c8/IEqualityComparer`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/NDP/fx/src/net/System/Net/Sockets/Socket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SocketLib/Client/ClientSocket.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ScoutingClassesLib/Classes/BaseData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ScoutingClassesLib/Classes/Pit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ScoutingClassesLib/Classes/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/LogIn.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8289345A-4EF9-4F50-9624-C19838DFE136/3e/935dc86e/RouteItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/GameDetails.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/CustomListViewColumn.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8289345A-4EF9-4F50-9624-C19838DFE136/1d/41b97f52/EventRoute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/MsgLabel.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/AddGame.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8289345A-4EF9-4F50-9624-C19838DFE136/a1/914ce017/UIElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/CustomSlider.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/ConfigureWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/175C9EE3-569E-4228-97B2-1C8E7F84C102/01/9c72b9c4/ButtonBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/AddPit.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/175C9EE3-569E-4228-97B2-1C8E7F84C102/79/7eba23cb/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/MsgLabel.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8289345A-4EF9-4F50-9624-C19838DFE136/11/2a68dbeb/MouseButtonEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/CustomListViewColumn.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/CustomListView.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8289345A-4EF9-4F50-9624-C19838DFE136/dd/3d7b1020/RoutedEventHandlerInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoutingApp/AddPit.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ScoutingApp/delete.http" />
+        <option value="$PROJECT_DIR$/ScoutingApp/UIElemetTest.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/MsgLabel.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/ErrLabel.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/ErrLabel.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/CustomSlider.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/CustomSlider.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/MsgLabel.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/MsgLabel.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/PitTab.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/CustomListView.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/CustomListViewColumn.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/GameTab.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/CustomListViewColumn.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/CustomListView.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/TestTab.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/Properties/Settings.settings" />
+        <option value="$PROJECT_DIR$/ScoutingApp/ConfigureWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/ConfigureWindow.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/GameTab.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/TestTab.xaml.cs" />
+        <option value="$PROJECT_DIR$/../ScoutingClassesLib/Classes/Game.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/PitTab.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/GameDetails.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/GameDetails.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/AddGame.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/AddGame.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/AddPit.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/StartWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/StartWindow.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/AddPit.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/ServerAccess.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/bin/Debug/ServerAccess.json" />
+        <option value="$PROJECT_DIR$/ScoutingApp/ServerAccess.json" />
+        <option value="$PROJECT_DIR$/ScoutingApp/Settings.json" />
+        <option value="$PROJECT_DIR$/ScoutingApp/NetworkDetails.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/DataLists.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/packages.config" />
+        <option value="$PROJECT_DIR$/ScoutingApp/LogIn.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/App.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/App.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/Setting.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/LogIn.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/App.config" />
+        <option value="$PROJECT_DIR$/ScoutingApp/Settings.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml" />
+        <option value="$PROJECT_DIR$/ScoutingApp/MainWindow.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DesktopScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DesktopScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DesktopScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LogIn.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DesktopScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="MainWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="DesktopScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="ScoutingApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SettingsWindow.xaml" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Se&#9;FILE&#9;file://C:/Users/DVIR H/Source/Repos/DesktopScoutingApp/ScoutingApp/Properties/Settings.settings&#10;Auoto&#9;null&#9;null&#10;Update&#9;null&#9;null&#10;ErrLa&#9;null&#9;null&#10;DataLists.AddGame&#9;null&#9;null&#10;DataLis&#9;null&#9;null&#10;AddGame&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ScoutingApp/Images/settings_icon.png" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/ScoutingApp/bin/Debug/ScoutingApp.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ScoutingApp/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ScoutingApp/ScoutingApp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SFStoredExecutionPersistentComponent">
+    <executions>
+      <execution name="Default" sourceToExecute="" />
+    </executions>
+    <lastSelectedExecutionName>Default</lastSelectedExecutionName>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45a2df42-501c-424b-9160-e35f941296c8" name="Default" comment="" />
+      <created>1529703791088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529703791088</updated>
+      <workItem from="1529703794725" duration="2225000" />
+      <workItem from="1529751527847" duration="12643000" />
+      <workItem from="1530090554648" duration="15344000" />
+      <workItem from="1530256010024" duration="4660000" />
+      <workItem from="1530279968125" duration="7518000" />
+      <workItem from="1530350304775" duration="4953000" />
+      <workItem from="1530355764627" duration="3437000" />
+      <workItem from="1530380435214" duration="1220000" />
+      <workItem from="1530384138526" duration="22299000" />
+      <workItem from="1530474849742" duration="8987000" />
+      <workItem from="1530945143916" duration="487000" />
+      <workItem from="1530945943877" duration="37000" />
+      <workItem from="1530946020693" duration="3017000" />
+      <workItem from="1531225618886" duration="8619000" />
+      <workItem from="1531339935204" duration="5307000" />
+      <workItem from="1531409857008" duration="690000" />
+      <workItem from="1531416024982" duration="9508000" />
+      <workItem from="1531468009661" duration="10380000" />
+      <workItem from="1535976654464" duration="13278000" />
+      <workItem from="1535995748142" duration="3810000" />
+      <workItem from="1536051225224" duration="947000" />
+      <workItem from="1536682232621" duration="6024000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145390000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5031579" visible="true" weight="0.18120806" />
+      <window_info id="Favorites" order="1" sideWeight="0.49684212" side_tool="true" weight="0.19395973" />
+      <window_info id="Query Editor" order="2" />
+      <window_info anchor="bottom" id="DB Execution Console" order="0" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49731544" weight="0.2592068" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4986577" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50201344" side_tool="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="NuGet" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3286119" />
+      <window_info anchor="bottom" id="Salesforce" order="17" weight="0.32909605" />
+      <window_info anchor="bottom" id="SFDX" order="18" weight="0.32909605" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="19" weight="0.32909605" />
+      <window_info anchor="bottom" id="Log Manager" order="20" weight="0.32909605" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="4" weight="0.20939597" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3295302" />
+      <window_info anchor="right" auto_hide="true" id="XAML Preview" order="6" side_tool="true" type="SLIDING" weight="0.2147651" />
+      <window_info anchor="right" id="Structure" order="7" sideWeight="0.490113" side_tool="true" weight="0.18053691" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="games" language="C#" />
+        <watch expression="gamesStr[i]" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>gamesStr[i]</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>games</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DataLists.GetGames()</expression-string>
+        <language-id>TEXT</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DataLists.Get</expression-string>
+        <language-id>TEXT</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SubmitButton</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Sub</expression-string>
+        <language-id>C#</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/CustomSlider.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/MsgLabel.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/Source/03056.00/Source/NDP/fx/src/net/System/Net/Sockets/Socket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1739" column="12" selection-start-line="1739" selection-start-column="12" selection-end-line="1739" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/MsgLabel.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/PitTab.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/CustomListView.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/CustomListViewColumn.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/CustomListViewColumn.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/CustomListView.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/TestTab.xaml" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/ConfigureWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/ConfigureWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/GameTab.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Images/loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScoutingClassesLib/Classes/BaseData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ScoutingClassesLib/Classes/Pit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/GameTab.xaml.cs" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/TestTab.xaml.cs" />
+    <entry file="file://$PROJECT_DIR$/../ScoutingClassesLib/Classes/Game.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/PitTab.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Properties/Resources.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-376" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/GameDetails.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/GameDetails.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/AddGame.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/StartWindow.xaml" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/StartWindow.xaml.cs" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/bin/Debug/ServerAccess.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/AddGame.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/AddPit.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/AddPit.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Settings.json" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/NetworkDetails.cs" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Properties/Settings.settings" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/DataLists.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="119" column="57" selection-start-line="119" selection-start-column="57" selection-end-line="119" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SocketLib/Client/ClientSocket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/packages.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CEDE6039-FF70-4EA1-A1B1-6D7D3EFD2290/70/97165ee2/Application.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="737" column="27" selection-start-line="737" selection-start-column="27" selection-end-line="737" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Images/flash_logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Images/flash_icon.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Setting.cs" />
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1536683392653" expanded="true" signature="51:145" ph="/// Interaction logic for App.xaml ... " />
+            <marker date="1536683392653" expanded="true" signature="188:745" ph="{...}" />
+            <marker date="1536683392653" expanded="true" signature="215:583" ph="{...}" />
+            <marker date="1536683392653" expanded="true" signature="333:402" ph="{...}" />
+            <marker date="1536683392653" expanded="true" signature="475:539" ph="{...}" />
+            <marker date="1536683392653" expanded="true" signature="648:739" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/LogIn.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <marker date="1535987141632" expanded="true" signature="0:933" ph="&lt;&lt;Window.Content&gt;&#10;        &lt;StackPanel&gt;&#10;            &lt;Label Content=&quot;Enter Password:&quot;/&gt;&#10;            &lt;PasswordBox Name=&quot;PasswordBox&quot;&#10;                         PasswordChanged=&quot;PasswordBox_OnPasswordChanged&quot;&#10;                         Margin=&quot;20,10&quot;/&gt;&#10;            &lt;scoutingApp:MsgLabel x:Name=&quot;MsgLabel&quot;&#10;                                  Visibility=&quot;Collapsed&quot;/&gt;&#10;            &lt;Button Content=&quot;Continue&quot;&#10;                    HorizontalAlignment=&quot;Center&quot;&#10;                    Click=&quot;Submit_OnClick&quot;/&gt;&#10;        &lt;/StackPanel&gt;&#10;    &lt;/Window.Content&gt;.../&gt;" />
+            <marker date="1535987141632" expanded="true" signature="392:923" ph="&lt;&lt;StackPanel&gt;&#10;            &lt;Label Content=&quot;Enter Password:&quot;/&gt;&#10;            &lt;PasswordBox Name=&quot;PasswordBox&quot;&#10;                         PasswordChanged=&quot;PasswordBox_OnPasswordChanged&quot;&#10;                         Margin=&quot;20,10&quot;/&gt;&#10;            &lt;scoutingApp:MsgLabel x:Name=&quot;MsgLabel&quot;&#10;                                  Visibility=&quot;Collapsed&quot;/&gt;&#10;            &lt;Button Content=&quot;Continue&quot;&#10;                    HorizontalAlignment=&quot;Center&quot;&#10;                    Click=&quot;Submit_OnClick&quot;/&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1535987141632" expanded="true" signature="417:901" ph="&lt;&lt;Label Content=&quot;Enter Password:&quot;/&gt; &lt;PasswordBox Name=&quot;PasswordBox&quot;&#10;                         PasswordChanged=&quot;PasswordBox_OnPasswordChanged&quot;&#10;                         Margin=&quot;20,10&quot;/&gt; &lt;scoutingApp:MsgLabel x:Name=&quot;MsgLabel&quot;&#10;                                  Visibility=&quot;Collapsed&quot;/&gt; &lt;Button Content=&quot;Continue&quot;&#10;                    HorizontalAlignment=&quot;Center&quot;&#10;                    Click=&quot;Submit_OnClick&quot;/&gt;.../&gt;" />
+            <marker date="1535987141632" expanded="true" signature="489:635" ph="&lt;.../&gt;" />
+            <marker date="1535987141632" expanded="true" signature="648:746" ph="&lt;.../&gt;" />
+            <marker date="1535987141632" expanded="true" signature="759:879" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Images/settings_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/LogIn.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <marker date="1536683500973" expanded="true" signature="44:1288" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="86:1286" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="169:258" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="299:396" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="475:949" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="548:724" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="792:852" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="986:1064" ph="{...}" />
+            <marker date="1536683500973" expanded="true" signature="1150:1280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1536694980940" expanded="false" signature="6:140" ph="..." />
+            <marker date="1536694980940" expanded="true" signature="163:1682" ph="{...}" />
+            <marker date="1536694980940" expanded="true" signature="170:318" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1536694980940" expanded="true" signature="419:1680" ph="{...}" />
+            <marker date="1536694980940" expanded="true" signature="453:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+          <folding>
+            <marker date="1536683500953" expanded="false" signature="6:81" ph="..." />
+            <marker date="1536683500953" expanded="true" signature="104:3064" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="139:3062" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="162:240" ph="/// Password to access the server ... " />
+            <marker date="1536683500953" expanded="true" signature="301:366" ph="/// Ip of the server ... " />
+            <marker date="1536683500953" expanded="true" signature="421:488" ph="/// Port on the server ... " />
+            <marker date="1536683500953" expanded="true" signature="542:615" ph="/// Default IP of the server ... " />
+            <marker date="1536683500953" expanded="true" signature="685:760" ph="/// Default port on the server ... " />
+            <marker date="1536683500953" expanded="true" signature="829:932" ph="/// Loading the Games and Pits from the server at start up ... " />
+            <marker date="1536683500953" expanded="true" signature="1005:1091" ph="/// Loads the settings of the application ... " />
+            <marker date="1536683500953" expanded="true" signature="1132:1506" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="1524:1612" ph="/// Save the last password the user entered ... " />
+            <marker date="1536683500953" expanded="true" signature="1654:2191" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="2209:2482" ph="/// Checks if the given password is valid ... " />
+            <marker date="1536683500953" expanded="true" signature="2540:3056" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="2566:2952" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="2753:2823" ph="{...}" />
+            <marker date="1536683500953" expanded="true" signature="2988:3046" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+          <folding>
+            <marker date="1536691698629" expanded="true" signature="44:1777" ph="{...}" />
+            <marker date="1536691698629" expanded="true" signature="95:1775" ph="{...}" />
+            <marker date="1536691698629" expanded="true" signature="133:551" ph="{...}" />
+            <marker date="1536691698629" expanded="true" signature="621:783" ph="{...}" />
+            <marker date="1536691698629" expanded="true" signature="854:1015" ph="{...}" />
+            <marker date="1536691698629" expanded="true" signature="1168:1402" ph="{...}" />
+            <marker date="1536691698629" expanded="true" signature="1482:1769" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/SettingsWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="89" column="60" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
+          <folding>
+            <marker date="1536692198385" expanded="true" signature="0:5819" ph="&lt;&lt;Window.Resources&gt;&#10;&#10;        &lt;ControlTemplate x:Key=&quot;TextBoxBaseControlTemplate&quot; TargetType=&quot;TextBox&quot;&gt;&#10;            &lt;Border Background=&quot;{TemplateBinding Background}&quot; &#10;                    x:Name=&quot;Bd&quot; BorderBrush=&quot;Gray&quot;&#10;                BorderThickness=&quot;{TemplateBinding BorderThickness}&quot; CornerRadius=&quot;10&quot;&gt;&#10;                &lt;ScrollViewer x:Name=&quot;PART_ContentHost&quot;/&gt;&#10;            &lt;/Border&gt;&#10;            &lt;ControlTemplate.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;{DynamicResource {x:Static SystemColors.ControlBrushKey}}&quot; TargetName=&quot;Bd&quot;/&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}&quot;/&gt;&#10;                &lt;/Trigger&gt;&#10;                &lt;Trigger Property=&quot;Width&quot; Value=&quot;Auto&quot;&gt;&#10;                    &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot;/&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/ControlTemplate.Triggers&gt;&#10;        &lt;/ControlTemplate&gt;&#10;        &lt;Style x:Key=&quot;ButtonBorderStyle&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;10&quot;/&gt;&#10;            &lt;Setter Property=&quot;Width&quot; Value=&quot;70&quot;/&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##FFB9B9BB&quot;/&gt;&#10;            &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;        &lt;/Style&gt;&#10;        &lt;Style x:Key=&quot;BorderStyle&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;10&quot;/&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot;/&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##FFC6D9D9&quot;/&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;0,0,0,10&quot;/&gt;&#10;        &lt;/Style&gt;&#10;        &#10;    &lt;/Window.Resources&gt; &lt;Window.Content&gt;&#10;        &lt;StackPanel Margin=&quot;20&quot;&gt;&#10;            &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;IP:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;IpBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;&#10;            &lt;/Border&gt;&#10;            &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;Port:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;PortBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;&#10;            &lt;/Border&gt;&#10;&#10;            &lt;Border Name=&quot;LogOut&quot; Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Grid.Column=&quot;0&quot; Content=&quot;Team: &quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;1&quot; Content=&quot;team&quot;/&gt;&#10;                    &lt;Border Grid.Column=&quot;3&quot; Margin=&quot;10,0&quot;&#10;                            Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                        &lt;Button Content=&quot;Log-Out&quot; Click=&quot;LogOut_OnClick&quot;&#10;                                Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt;&#10;            &lt;Border Name=&quot;LogIn&quot; Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&#10;                    Visibility=&quot;Collapsed&quot;&gt;&#10;                &lt;Border Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button Content=&quot;Log-In&quot; Click=&quot;LogIn_OnClick&quot; &#10;                            Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                &lt;/Border&gt;&#10;            &lt;/Border&gt;&#10;&#10;            &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;CheckBox Content=&quot;Load Games and Pits on opening&quot; Margin=&quot;5,5&quot;&#10;                          Name=&quot;StartUpLoad&quot;/&gt;&#10;            &lt;/Border&gt;&#10;&#10;            &lt;StackPanel Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Right&quot;&gt;&#10;                &lt;Border HorizontalAlignment=&quot;Left&quot; Width=&quot;130&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Reset to Default&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;RestoreSettings_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;                &#10;                &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot;&#10;                            Content=&quot;Cancel&quot; Margin=&quot;10,0&quot; ToolTip=&quot;Cancel and don't save&quot;&#10;                            Click=&quot;Cancel_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;&#10;                &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Save&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;Save_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/StackPanel&gt;&#10;    &lt;/Window.Content&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="545:2161" ph="&lt;&lt;ControlTemplate x:Key=&quot;TextBoxBaseControlTemplate&quot; TargetType=&quot;TextBox&quot;&gt;&#10;            &lt;Border Background=&quot;{TemplateBinding Background}&quot; &#10;                    x:Name=&quot;Bd&quot; BorderBrush=&quot;Gray&quot;&#10;                BorderThickness=&quot;{TemplateBinding BorderThickness}&quot; CornerRadius=&quot;10&quot;&gt;&#10;                &lt;ScrollViewer x:Name=&quot;PART_ContentHost&quot;/&gt;&#10;            &lt;/Border&gt;&#10;            &lt;ControlTemplate.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;{DynamicResource {x:Static SystemColors.ControlBrushKey}}&quot; TargetName=&quot;Bd&quot;/&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}&quot;/&gt;&#10;                &lt;/Trigger&gt;&#10;                &lt;Trigger Property=&quot;Width&quot; Value=&quot;Auto&quot;&gt;&#10;                    &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot;/&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/ControlTemplate.Triggers&gt;&#10;        &lt;/ControlTemplate&gt; &lt;Style x:Key=&quot;ButtonBorderStyle&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;10&quot;/&gt;&#10;            &lt;Setter Property=&quot;Width&quot; Value=&quot;70&quot;/&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##FFB9B9BB&quot;/&gt;&#10;            &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;&#10;        &lt;/Style&gt; &lt;Style x:Key=&quot;BorderStyle&quot; TargetType=&quot;Border&quot;&gt;&#10;            &lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;10&quot;/&gt;&#10;            &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot;/&gt;&#10;            &lt;Setter Property=&quot;Background&quot; Value=&quot;##FFC6D9D9&quot;/&gt;&#10;            &lt;Setter Property=&quot;Margin&quot; Value=&quot;0,0,0,10&quot;/&gt;&#10;        &lt;/Style&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="573:1519" ph="&lt;&lt;Border Background=&quot;{TemplateBinding Background}&quot; &#10;                    x:Name=&quot;Bd&quot; BorderBrush=&quot;Gray&quot;&#10;                BorderThickness=&quot;{TemplateBinding BorderThickness}&quot; CornerRadius=&quot;10&quot;&gt;&#10;                &lt;ScrollViewer x:Name=&quot;PART_ContentHost&quot;/&gt;&#10;            &lt;/Border&gt; &lt;ControlTemplate.Triggers&gt;&#10;                &lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;{DynamicResource {x:Static SystemColors.ControlBrushKey}}&quot; TargetName=&quot;Bd&quot;/&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}&quot;/&gt;&#10;                &lt;/Trigger&gt;&#10;                &lt;Trigger Property=&quot;Width&quot; Value=&quot;Auto&quot;&gt;&#10;                    &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot;/&gt;&#10;                &lt;/Trigger&gt;&#10;            &lt;/ControlTemplate.Triggers&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="659:927" ph="&lt;&lt;ScrollViewer x:Name=&quot;PART_ContentHost&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="940:1492" ph="&lt;&lt;Trigger Property=&quot;IsEnabled&quot; Value=&quot;False&quot;&gt;&#10;                    &lt;Setter Property=&quot;Background&quot; Value=&quot;{DynamicResource {x:Static SystemColors.ControlBrushKey}}&quot; TargetName=&quot;Bd&quot;/&gt;&#10;                    &lt;Setter Property=&quot;Foreground&quot; Value=&quot;{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}&quot;/&gt;&#10;                &lt;/Trigger&gt; &lt;Trigger Property=&quot;Width&quot; Value=&quot;Auto&quot;&gt;&#10;                    &lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot;/&gt;&#10;                &lt;/Trigger&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="983:1307" ph="&lt;&lt;Setter Property=&quot;Background&quot; Value=&quot;{DynamicResource {x:Static SystemColors.ControlBrushKey}}&quot; TargetName=&quot;Bd&quot;/&gt; &lt;Setter Property=&quot;Foreground&quot; Value=&quot;{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="1324:1452" ph="&lt;&lt;Setter Property=&quot;MinWidth&quot; Value=&quot;150&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="1528:1820" ph="&lt;&lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;10&quot;/&gt; &lt;Setter Property=&quot;Width&quot; Value=&quot;70&quot;/&gt; &lt;Setter Property=&quot;Background&quot; Value=&quot;##FFB9B9BB&quot;/&gt; &lt;Setter Property=&quot;Cursor&quot; Value=&quot;Hand&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="1829:2128" ph="&lt;&lt;Setter Property=&quot;CornerRadius&quot; Value=&quot;10&quot;/&gt; &lt;Setter Property=&quot;BorderThickness&quot; Value=&quot;1&quot;/&gt; &lt;Setter Property=&quot;Background&quot; Value=&quot;##FFC6D9D9&quot;/&gt; &lt;Setter Property=&quot;Margin&quot; Value=&quot;0,0,0,10&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2166:5809" ph="&lt;&lt;StackPanel Margin=&quot;20&quot;&gt;&#10;            &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;IP:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;IpBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;&#10;            &lt;/Border&gt;&#10;            &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;Port:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;PortBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;&#10;            &lt;/Border&gt;&#10;&#10;            &lt;Border Name=&quot;LogOut&quot; Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Grid.Column=&quot;0&quot; Content=&quot;Team: &quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;1&quot; Content=&quot;team&quot;/&gt;&#10;                    &lt;Border Grid.Column=&quot;3&quot; Margin=&quot;10,0&quot;&#10;                            Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                        &lt;Button Content=&quot;Log-Out&quot; Click=&quot;LogOut_OnClick&quot;&#10;                                Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt;&#10;            &lt;Border Name=&quot;LogIn&quot; Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&#10;                    Visibility=&quot;Collapsed&quot;&gt;&#10;                &lt;Border Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button Content=&quot;Log-In&quot; Click=&quot;LogIn_OnClick&quot; &#10;                            Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                &lt;/Border&gt;&#10;            &lt;/Border&gt;&#10;&#10;            &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;CheckBox Content=&quot;Load Games and Pits on opening&quot; Margin=&quot;5,5&quot;&#10;                          Name=&quot;StartUpLoad&quot;/&gt;&#10;            &lt;/Border&gt;&#10;&#10;            &lt;StackPanel Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Right&quot;&gt;&#10;                &lt;Border HorizontalAlignment=&quot;Left&quot; Width=&quot;130&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Reset to Default&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;RestoreSettings_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;                &#10;                &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot;&#10;                            Content=&quot;Cancel&quot; Margin=&quot;10,0&quot; ToolTip=&quot;Cancel and don't save&quot;&#10;                            Click=&quot;Cancel_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;&#10;                &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Save&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;Save_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;            &lt;/StackPanel&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2191:5787" ph="&lt;&lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;IP:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;IpBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;&#10;            &lt;/Border&gt; &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;Port:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;PortBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;&#10;            &lt;/Border&gt; &lt;Border Name=&quot;LogOut&quot; Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Grid.Column=&quot;0&quot; Content=&quot;Team: &quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;1&quot; Content=&quot;team&quot;/&gt;&#10;                    &lt;Border Grid.Column=&quot;3&quot; Margin=&quot;10,0&quot;&#10;                            Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                        &lt;Button Content=&quot;Log-Out&quot; Click=&quot;LogOut_OnClick&quot;&#10;                                Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt; &lt;Border Name=&quot;LogIn&quot; Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&#10;                    Visibility=&quot;Collapsed&quot;&gt;&#10;                &lt;Border Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button Content=&quot;Log-In&quot; Click=&quot;LogIn_OnClick&quot; &#10;                            Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                &lt;/Border&gt;&#10;            &lt;/Border&gt; &lt;Border Style=&quot;{StaticResource ResourceKey=BorderStyle}&quot;&gt;&#10;                &lt;CheckBox Content=&quot;Load Games and Pits on opening&quot; Margin=&quot;5,5&quot;&#10;                          Name=&quot;StartUpLoad&quot;/&gt;&#10;            &lt;/Border&gt; &lt;StackPanel Orientation=&quot;Horizontal&quot; HorizontalAlignment=&quot;Right&quot;&gt;&#10;                &lt;Border HorizontalAlignment=&quot;Left&quot; Width=&quot;130&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Reset to Default&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;RestoreSettings_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;                &#10;                &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot;&#10;                            Content=&quot;Cancel&quot; Margin=&quot;10,0&quot; ToolTip=&quot;Cancel and don't save&quot;&#10;                            Click=&quot;Cancel_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;&#10;                &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Save&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;Save_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;&#10;            &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2228:2634" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;IP:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;IpBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2302:2612" ph="&lt;&lt;Label Content=&quot;IP:&quot; HorizontalAlignment=&quot;Center&quot;/&gt; &lt;TextBox Name=&quot;IpBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2432:2582" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2647:3057" ph="&lt;&lt;StackPanel Orientation=&quot;Horizontal&quot;&gt;&#10;                    &lt;Label Content=&quot;Port:&quot; HorizontalAlignment=&quot;Center&quot;/&gt;&#10;                    &lt;TextBox Name=&quot;PortBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;&#10;                &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2721:3035" ph="&lt;&lt;Label Content=&quot;Port:&quot; HorizontalAlignment=&quot;Center&quot;/&gt; &lt;TextBox Name=&quot;PortBox&quot; HorizontalContentAlignment=&quot;Center&quot;&#10;                        Template=&quot;{StaticResource ResourceKey=TextBoxBaseControlTemplate}&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="2853:3005" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="3071:3958" ph="&lt;&lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;Label Grid.Column=&quot;0&quot; Content=&quot;Team: &quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;1&quot; Content=&quot;team&quot;/&gt;&#10;                    &lt;Border Grid.Column=&quot;3&quot; Margin=&quot;10,0&quot;&#10;                            Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                        &lt;Button Content=&quot;Log-Out&quot; Click=&quot;LogOut_OnClick&quot;&#10;                                Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/Border&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="3159:3936" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Column=&quot;0&quot; Content=&quot;Team: &quot;/&gt; &lt;Label Grid.Column=&quot;1&quot; Content=&quot;team&quot;/&gt; &lt;Border Grid.Column=&quot;3&quot; Margin=&quot;10,0&quot;&#10;                            Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                        &lt;Button Content=&quot;Log-Out&quot; Click=&quot;LogOut_OnClick&quot;&#10;                                Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/Border&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="3186:3481" ph="&lt;&lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt; &lt;ColumnDefinition Width=&quot;*&quot;/&gt; &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="3624:3912" ph="&lt;&lt;Button Content=&quot;Log-Out&quot; Click=&quot;LogOut_OnClick&quot;&#10;                                Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="3758:3882" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="3971:4340" ph="&lt;&lt;Border Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button Content=&quot;Log-In&quot; Click=&quot;LogIn_OnClick&quot; &#10;                            Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                &lt;/Border&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4101:4318" ph="&lt;&lt;Button Content=&quot;Log-In&quot; Click=&quot;LogIn_OnClick&quot; &#10;                            Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4173:4292" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4354:4560" ph="&lt;&lt;CheckBox Content=&quot;Load Games and Pits on opening&quot; Margin=&quot;5,5&quot;&#10;                          Name=&quot;StartUpLoad&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4428:4538" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4574:5765" ph="&lt;&lt;Border HorizontalAlignment=&quot;Left&quot; Width=&quot;130&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Reset to Default&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;RestoreSettings_OnClick&quot;/&gt;&#10;                &lt;/Border&gt; &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot;&#10;                            Content=&quot;Cancel&quot; Margin=&quot;10,0&quot; ToolTip=&quot;Cancel and don't save&quot;&#10;                            Click=&quot;Cancel_OnClick&quot;/&gt;&#10;                &lt;/Border&gt; &lt;Border HorizontalAlignment=&quot;Right&quot;&#10;                        Style=&quot;{StaticResource ButtonBorderStyle}&quot;&gt;&#10;                    &lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Save&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;Save_OnClick&quot;/&gt;&#10;                &lt;/Border&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4656:5021" ph="&lt;&lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Reset to Default&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;RestoreSettings_OnClick&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="4791:4995" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="5055:5390" ph="&lt;&lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot;&#10;                            Content=&quot;Cancel&quot; Margin=&quot;10,0&quot; ToolTip=&quot;Cancel and don't save&quot;&#10;                            Click=&quot;Cancel_OnClick&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="5171:5364" ph="&lt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="5408:5739" ph="&lt;&lt;Button BorderThickness=&quot;0&quot; Background=&quot;{x:Null}&quot; ToolTip=&quot;Save settings&quot;&#10;                            Content=&quot;Save&quot; Margin=&quot;10,0&quot;&#10;                            Click=&quot;Save_OnClick&quot;/&gt;.../&gt;" />
+            <marker date="1536692198385" expanded="true" signature="5532:5713" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScoutingApp/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <marker date="1536695531282" expanded="true" signature="0:3983" ph="&lt;&lt;Window.Content&gt;&#10;        &lt;StackPanel Margin=&quot;10&quot;&gt;&#10;            &lt;Border&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt;&#10;            &lt;TabControl&gt;&#10;                &lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;                &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;            &lt;/TabControl&gt;&#10;        &lt;/StackPanel&gt;&#10;    &lt;/Window.Content&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3333:3358" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt; &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt; &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt; &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt; &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3333:3380" ph="&lt;&lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3333:3951" ph="&lt;&lt;Border&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt; &lt;TabControl&gt;&#10;                &lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;                &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;            &lt;/TabControl&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3333:3973" ph="&lt;&lt;StackPanel Margin=&quot;10&quot;&gt;&#10;            &lt;Border&gt;&#10;                &lt;Grid&gt;&#10;                    &lt;Grid.ColumnDefinitions&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;*&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                        &lt;ColumnDefinition Width=&quot;Auto&quot;/&gt;&#10;                    &lt;/Grid.ColumnDefinitions&gt;&#10;                    &lt;StackPanel Grid.Column=&quot;0&quot; Orientation=&quot;Horizontal&quot; Background=&quot;Aqua&quot;&gt;&#10;                        &lt;Image Source=&quot;Images/settings_icon.png&quot; Width=&quot;20&quot;/&gt;&#10;                        &lt;Button Content=&quot;Settings&quot; Background=&quot;{x:Null}&quot; BorderThickness=&quot;0&quot;/&gt;&#10;                    &lt;/StackPanel&gt;&#10;                    &lt;Button Grid.Column=&quot;1&quot; Content=&quot;Refresh list&quot;/&gt;&#10;                    &lt;Label Grid.Column=&quot;3&quot; Content=&quot;team&quot; HorizontalAlignment=&quot;Right&quot;/&gt;&#10;                    &lt;Button Grid.Column=&quot;4&quot; Content=&quot;Log-Out&quot;/&gt;&#10;                &lt;/Grid&gt;&#10;            &lt;/Border&gt;&#10;            &lt;TabControl&gt;&#10;                &lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;                &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;&#10;            &lt;/TabControl&gt;&#10;        &lt;/StackPanel&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3393:3929" ph="&lt;&lt;TabItem Header=&quot;Game&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt; &lt;TabItem Header=&quot;Pit&quot;&gt;&#10;                    &lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;&#10;                &lt;/TabItem&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3422:3655" ph="&lt;&lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3466:3628" ph="&lt;&lt;Frame.Content&gt;&#10;                            &lt;local:GameTab/&gt;&#10;                        &lt;/Frame.Content&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3498:3599" ph="&lt;&lt;local:GameTab/&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3672:3903" ph="&lt;&lt;Frame&gt;&#10;                        &lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;&#10;                    &lt;/Frame&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3715:3876" ph="&lt;&lt;Frame.Content&gt;&#10;                            &lt;local:PitTab/&gt;&#10;                        &lt;/Frame.Content&gt;.../&gt;" />
+            <marker date="1536695531282" expanded="true" signature="3747:3847" ph="&lt;&lt;local:PitTab/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

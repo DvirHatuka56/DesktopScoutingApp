@@ -1,0 +1,25 @@
+﻿<Window x:Class="ScoutingApp.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:scoutingApp="clr-namespace:ScoutingApp"
+        WindowStartupLocation="CenterScreen" WindowStyle="None"
+        Title="Log-in" ResizeMode="NoResize" Background="LightGray" Padding="20"
+        Height="200" Width="250">
+    <Window.Content>
+        <StackPanel>
+            <Label Content="Enter username:"/>
+            <TextBox Name="Username"
+                         TextChanged="Username_OnTextChanged"
+                         Margin="20,10"/>
+            <Label Content="Enter Password:"/>
+            <PasswordBox Name="PasswordBox"
+                         PasswordChanged="PasswordBox_OnPasswordChanged"
+                         Margin="20,10"/>
+            <scoutingApp:MsgLabel x:Name="MsgLabel"
+                                  Visibility="Collapsed"/>
+            <Button Content="Continue"
+                    HorizontalAlignment="Center"
+                    Click="Submit_OnClick"/>
+        </StackPanel>
+    </Window.Content>
+</Window>

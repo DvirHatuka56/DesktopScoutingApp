@@ -1,0 +1,24 @@
+﻿<Page x:Class="ScoutingApp.GameDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Page.Content>
+        <StackPanel>
+            <Label Name="TeamNumber"
+                   Content="Team Number: "/>
+            <Label Name="GameNumber"
+                   Content="Game Number: "/>
+            <Label Name="ClimbAble"/>
+            <Label Name="MiddleAuto"/>
+            <Label Name="AutoDiscription"
+                   Content="Auotonomus DiscrDefaultIption: "/>
+            <Label Name="Stability"
+                   Content="Stability: "/>
+            <Label Name="Missions"
+                   Content="Missions: "/>
+            <Label Name="MissionsSuccses"
+                   Content="Missions Succses: "/>
+            <Label Name="AutoSuccses"
+                   Content="Autonomous Succses: "/>
+        </StackPanel>
+    </Page.Content>
+</Page>

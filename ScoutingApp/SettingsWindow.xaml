@@ -1,0 +1,113 @@
+<Window x:Class="ScoutingApp.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        mc:Ignorable="d" Icon="Images/settings_icon.png"
+        Title="Settings" Height="260" Width="330" Padding="10" 
+        FontSize="14" FontFamily="Yu Gothic UI Semibold"
+        Background="#FFF9F2F2" >
+    <Window.Resources>
+
+        <ControlTemplate x:Key="TextBoxBaseControlTemplate" TargetType="TextBox">
+            <Border Background="{TemplateBinding Background}" 
+                    x:Name="Bd" BorderBrush="Gray"
+                BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                <ScrollViewer x:Name="PART_ContentHost"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" TargetName="Bd"/>
+                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                </Trigger>
+                <Trigger Property="Width" Value="Auto">
+                    <Setter Property="MinWidth" Value="150"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+        <Style x:Key="ButtonBorderStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Width" Value="70"/>
+            <Setter Property="Background" Value="#FFB9B9BB"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        <Style x:Key="BorderStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="#FFC6D9D9"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+        </Style>
+        
+    </Window.Resources>
+    <Window.Content>
+        <StackPanel Margin="20">
+            <Border Style="{StaticResource ResourceKey=BorderStyle}">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="IP:" HorizontalAlignment="Center"/>
+                    <TextBox Name="IpBox" HorizontalContentAlignment="Center"
+                        Template="{StaticResource ResourceKey=TextBoxBaseControlTemplate}"/>
+                </StackPanel>
+            </Border>
+            <Border Style="{StaticResource ResourceKey=BorderStyle}">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Port:" HorizontalAlignment="Center"/>
+                    <TextBox Name="PortBox" HorizontalContentAlignment="Center"
+                        Template="{StaticResource ResourceKey=TextBoxBaseControlTemplate}"/>
+                </StackPanel>
+            </Border>
+
+            <Border Name="LogOut" Style="{StaticResource ResourceKey=BorderStyle}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="Team: "/>
+                    <Label Grid.Column="1" Content="team"/>
+                    <Border Grid.Column="3" Margin="10,0"
+                            Style="{StaticResource ButtonBorderStyle}">
+                        <Button Content="Log-Out" Click="LogOut_OnClick"
+                                Background="{x:Null}" BorderThickness="0"/>
+                    </Border>
+                </Grid>
+            </Border>
+            <Border Name="LogIn" Style="{StaticResource ResourceKey=BorderStyle}"
+                    Visibility="Collapsed">
+                <Border Style="{StaticResource ButtonBorderStyle}">
+                    <Button Content="Log-In" Click="LogIn_OnClick" 
+                            Background="{x:Null}" BorderThickness="0"/>
+                </Border>
+            </Border>
+
+            <Border Style="{StaticResource ResourceKey=BorderStyle}">
+                <CheckBox Content="Load Games and Pits on opening" Margin="5,5"
+                          Name="StartUpLoad"/>
+            </Border>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Border HorizontalAlignment="Left" Width="130"
+                        Style="{StaticResource ButtonBorderStyle}">
+                    <Button BorderThickness="0" Background="{x:Null}" ToolTip="Save settings"
+                            Content="Reset to Default" Margin="10,0"
+                            Click="RestoreSettings_OnClick"/>
+                </Border>
+                
+                <Border HorizontalAlignment="Right"
+                Style="{StaticResource ButtonBorderStyle}">
+                    <Button BorderThickness="0" Background="{x:Null}"
+                            Content="Cancel" Margin="10,0" ToolTip="Cancel and don't save"
+                            Click="Cancel_OnClick"/>
+                </Border>
+
+                <Border HorizontalAlignment="Right"
+                        Style="{StaticResource ButtonBorderStyle}">
+                    <Button BorderThickness="0" Background="{x:Null}" ToolTip="Save settings"
+                            Content="Save" Margin="10,0"
+                            Click="Save_OnClick"/>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+    </Window.Content>
+</Window>
