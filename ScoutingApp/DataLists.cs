@@ -11,6 +11,8 @@ namespace ScoutingApp
 {
     public static class DataLists
     {
+        private static string lastUpdateGame = DateTime.Now.ToString("HH:mm:ss tt");
+        private static string lastUpdatePit;
         private static readonly List<Game> Games = new List<Game>();
         private static readonly List<Pit> Pits = new List<Pit>();
 
@@ -43,22 +45,22 @@ namespace ScoutingApp
        
         public static (string msg, bool err) UpdatePitList()
         {
-            var update = Connections.LoadGames();
+            (var update, string time) = Connections.LoadGames(lastUpdateGame);
+            lastUpdateGame = time;
             return update.Equals(null) ? ("Update made successfully", true) : ("Error", false);
         }
         
         public static (string msg, bool err) UpdateGameList()
         {
-            var update = Connections.LoadGames();
-            if (update != null)
+            (var update, string time) = Connections.LoadGames(lastUpdateGame);
+            lastUpdateGame = time;
+            if (update == null) return ("Error", true);
+            Games.Clear();
+            foreach (var game in update)
             {
-                Games.Clear();
-                foreach (var game in update)
-                {
-                    Games.Add(game);
-                }
+                Games.Add(game);
             }
-            return update != null ? ("Update made successfully", false) : ("Error", true);
+            return ("Update made successfully", false);
         }
 
         public static void RefreshLists()
