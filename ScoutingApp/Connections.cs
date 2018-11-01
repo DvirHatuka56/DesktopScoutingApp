@@ -100,8 +100,6 @@ namespace ScoutingApp
 
         public static (List<Game>, string) LoadGames(string lastUpdate)
         {
-//            var json = "[{\"Stability\":4,\"MissionSuccess\":4,\"Missions\":\"Mission three\",\"AutonomousSuccess\":3,\"GameNumber\":52,\"TeamNumber\":3388,\"Climb\":true,\"MiddleAutonomous\":true,\"AutonomousDescription\":\"hello\"}, {\"Stability\":4,\"MissionSuccess\":4,\"Missions\":\"Mission three\",\"AutonomousSuccess\":3,\"GameNumber\":52,\"TeamNumber\":3388,\"Climb\":true,\"MiddleAutonomous\":true,\"AutonomousDescription\":\"hello\"}]";
-//            return JsonConvert.DeserializeObject<List<Game>>(json);
             try
             {
                 RequestMessage uploadRequestMessage = new RequestMessage
@@ -122,6 +120,41 @@ namespace ScoutingApp
                 {
                     response = ResponseMessage.ToResponse(client.ReceiveMessage());
                     update.Add(Game.Deserialize(response.Content));
+                }
+                return (update, DateTime.Now.ToString("HH:mm:ss tt"));
+            }
+            catch (SocketException)
+            {
+                return (null, lastUpdate);
+            }
+            catch (Exception)
+            {
+                return (null, lastUpdate);
+            }
+        }
+        
+        public static (List<Pit>, string) LoadPits(string lastUpdate)
+        {
+            try
+            {
+                RequestMessage uploadRequestMessage = new RequestMessage
+                {
+                    Username = Settings.Username,
+                    Password = Settings.Password,
+                    Request = "Load",
+                    Type = "Pit",
+                    Content = lastUpdate,
+                    Time = DateTime.Now.ToString("HH:mm:ss tt")
+                };
+                ClientSocket client = new ClientSocket(Settings.Ip, Settings.Port);
+                client.SendMessage(uploadRequestMessage.ToString());
+                
+                var update = new List<Pit>();
+                var response = new ResponseMessage();
+                while (response.Message != "End")
+                {
+                    response = ResponseMessage.ToResponse(client.ReceiveMessage());
+                    update.Add(Pit.Deserialize(response.Content));
                 }
                 return (update, DateTime.Now.ToString("HH:mm:ss tt"));
             }
