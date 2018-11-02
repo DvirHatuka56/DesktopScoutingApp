@@ -105,6 +105,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Connections.cs" />
+    <Compile Include="DebugWindow.xaml.cs">
+      <DependentUpon>DebugWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GameDetails.xaml.cs">
       <DependentUpon>GameDetails.xaml</DependentUpon>
     </Compile>
@@ -132,6 +135,7 @@
     <Page Include="CustomListView.xaml" />
     <Page Include="CustomListViewColumn.xaml" />
     <Page Include="CustomSlider.xaml" />
+    <Page Include="DebugWindow.xaml" />
     <Page Include="GameDetails.xaml" />
     <Page Include="LogIn.xaml" />
     <Page Include="MainWindow.xaml">

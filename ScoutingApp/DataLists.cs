@@ -11,8 +11,8 @@ namespace ScoutingApp
 {
     public static class DataLists
     {
-        private static string lastUpdateGame = DateTime.Now.ToString("HH:mm:ss tt");
-        private static string lastUpdatePit;
+        private static string lastUpdateGame = "";
+        private static string lastUpdatePit = "";
         private static readonly List<Game> Games = new List<Game>();
         private static readonly List<Pit> Pits = new List<Pit>();
 
@@ -21,16 +21,12 @@ namespace ScoutingApp
 
         public static bool AddGame(Game game)
         {
-            if (!Connections.Upload(game, "Game")) return false;
-            Games.Add(game);
-            return true;
+            return Connections.Upload(game, "Game");
         }
 
         public static bool AddPit(Pit pit)
         {
-            if (!Connections.Upload(pit, "Pit")) return false;
-            Pits.Add(pit);
-            return true;
+            return Connections.Upload(pit, "Pit");
         }
 
         public static List<Game> GetGames()
@@ -45,13 +41,13 @@ namespace ScoutingApp
        
         public static (string msg, bool err) UpdatePitList()
         {
-            (var update, string time) = Connections.LoadGames(lastUpdateGame);
+            (var update, string time) = Connections.LoadPits(lastUpdatePit);
             lastUpdateGame = time;
             if (update == null) return ("Error", true);
             Games.Clear();
-            foreach (var game in update)
+            foreach (var pit in update)
             {
-                Games.Add(game);
+                Pits.Add(pit);
             }
             return ("Update made successfully", false);
         }
@@ -60,8 +56,7 @@ namespace ScoutingApp
         {
             (var update, string time) = Connections.LoadGames(lastUpdateGame);
             lastUpdateGame = time;
-            if (update == null) return ("Error", true);
-            Games.Clear();
+            if (update?[0] == null) return ("Error", true);
             foreach (var game in update)
             {
                 Games.Add(game);

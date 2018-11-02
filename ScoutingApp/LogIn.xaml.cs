@@ -25,7 +25,7 @@ namespace ScoutingApp
             if (!Connections.ValidPassword())
             {
                 MsgLabel.Visibility = Visibility.Visible;
-                MsgLabel.ShowMessage("Incorrect Password", true);
+                MsgLabel.ShowMessage("Incorrect Password. Maybe you're offline...", true);
                 return;
             }
             Settings.SaveSettings();
@@ -52,6 +52,11 @@ namespace ScoutingApp
         private void Username_OnTextChanged(object sender, TextChangedEventArgs e)
         {
             Settings.Username = Username.Text;
+        }
+
+        private void Settings_OnClick(object sender, RoutedEventArgs e)
+        {
+            new SettingsWindow().ShowDialog();
         }
     }
 }
