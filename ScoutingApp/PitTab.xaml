@@ -30,7 +30,7 @@
                     <Frame.Content>
                         <local:PitDetails
                             x:Name="PitDetails"
-                            Background="LightSkyBlue"/>
+                            Background="Gray"/>
                     </Frame.Content>
                 </Frame>
             </Expander>
@@ -54,7 +54,7 @@
                 <Frame Margin="10">
                     <Frame.Content>
                         <local:AddPit 
-                               Background="LightSkyBlue"/>
+                            Background="Gray"/>
                     </Frame.Content>
                 </Frame>
             </Expander>
