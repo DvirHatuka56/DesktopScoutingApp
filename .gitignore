@@ -1,8 +1,8 @@
-/packages
-/.idea
-/ScoutingApp/bin
-/ScoutingApp/obj
-/ScoutingApp/Images
+/packages/
+/.idea/
+/ScoutingApp/bin/
+/ScoutingApp/obj/
+/ScoutingApp/Images/
 /ScoutingApp/ScoutingApp_TemporaryKey.pf1x
 /ScoutingApp/DebugWindow.xaml
 ScoutingApp/DebugWindow.xaml.cs
