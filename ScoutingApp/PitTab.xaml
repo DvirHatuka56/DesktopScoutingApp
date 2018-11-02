@@ -17,7 +17,7 @@
             </Grid.ColumnDefinitions>
             <Expander Grid.Column="0" 
                       IsExpanded="False"
-                      Name="PitDetailsExpender"
+                      Name="PitDetailsExpander"
                       ExpandDirection="Left">
                 <Expander.Header>
                     <TextBlock Text="Pit Details">

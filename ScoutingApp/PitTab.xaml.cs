@@ -57,7 +57,7 @@ namespace ScoutingApp
 			int idx = CustomListView.ItemList.Children.IndexOf(column);
 			Pit pit = DataLists.GetPits()[idx];
 
-			PitDetailsExpender.IsExpanded = true;
+			PitDetailsExpander.IsExpanded = true;
 			PitDetails.ShowDetails(pit);
 		}
 	}
