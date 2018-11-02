@@ -11,8 +11,8 @@ namespace ScoutingApp
 {
     public static class DataLists
     {
-        private static string lastUpdateGame = "";
-        private static string lastUpdatePit = "";
+        private static string _lastUpdateGame = "";
+        private static string _lastUpdatePit = "";
         private static readonly List<Game> Games = new List<Game>();
         private static readonly List<Pit> Pits = new List<Pit>();
 
@@ -41,10 +41,10 @@ namespace ScoutingApp
        
         public static (string msg, bool err) UpdatePitList()
         {
-            (var update, string time) = Connections.LoadPits(lastUpdatePit);
-            lastUpdateGame = time;
+            (var update, string time) = Connections.LoadPits(_lastUpdatePit);
+            _lastUpdatePit = time;
             if (update == null) return ("Error", true);
-            Games.Clear();
+            if (update.Count == 0) return ("Nothing to update...", false);
             foreach (var pit in update)
             {
                 Pits.Add(pit);
@@ -54,8 +54,8 @@ namespace ScoutingApp
         
         public static (string msg, bool err) UpdateGameList()
         {
-            (var update, string time) = Connections.LoadGames(lastUpdateGame);
-            lastUpdateGame = time;
+            (var update, string time) = Connections.LoadGames(_lastUpdateGame);
+            _lastUpdateGame = time;
             if (update == null) return ("Error", true);
             if (update.Count == 0) return ("Nothing to update...", false);
             foreach (var game in update)

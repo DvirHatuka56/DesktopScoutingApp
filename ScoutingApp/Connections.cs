@@ -89,23 +89,16 @@ namespace ScoutingApp
 
                 return (update, DateTime.Now.ToString("HH:mm:ss tt"));
             }
-            catch (SocketException e)
+            catch (SocketException)
             {
-                new DebugWindow("Socket Exception: " + e).ShowDialog();
                 return (null, lastUpdate);
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                new DebugWindow("Exception: " + e).ShowDialog();
                 return (null, lastUpdate);
             }
         }
 
-        private static string Indent(string str)
-        {
-            return str.Substring(0, str.Length / 2) + Environment.NewLine + str.Substring(str.Length / 2);
-        }
-        
         public static (List<Pit>, string) LoadPits(string lastUpdate)
         {
             try
@@ -123,12 +116,15 @@ namespace ScoutingApp
                 client.SendMessage(uploadRequestMessage.ToString());
                 
                 var update = new List<Pit>();
-                var response = new ResponseMessage();
-                while (response.Message != "End")
+                var resp = new ResponseMessage();
+                while (!resp.Message.Equals("End"))
                 {
-                    response = ResponseMessage.ToResponse(client.ReceiveMessage());
-                    update.Add(Pit.Deserialize(response.Content));
+                    resp = ResponseMessage.ToResponse(client.ReceiveMessage());
+                    client.SendMessage("...");
+                    if (resp.Message.Equals("End")) break;
+                    update.Add(Pit.Deserialize(resp.Content));
                 }
+
                 return (update, DateTime.Now.ToString("HH:mm:ss tt"));
             }
             catch (SocketException)
