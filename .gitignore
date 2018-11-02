@@ -1,6 +1,6 @@
-.\packages
-.\.idea
-.\ScoutingApp\bin
-.\ScoutingApp\obj
-.\ScoutingApp\Images
-.\ScoutingApp\ScoutingApp_TemporaryKey
+/packages
+/.idea
+/ScoutingApp/bin
+/ScoutingApp/obj
+/ScoutingApp/Images
+/ScoutingApp/ScoutingApp_TemporaryKey.pfx
