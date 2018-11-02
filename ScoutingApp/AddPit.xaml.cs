@@ -23,7 +23,7 @@ namespace ScoutingApp
                 Chassis = SelectedChassis(),
                 AutonomousDescription = AutoDescriptionContent()
             };
-
+            MsgLabel.Visibility = Visibility.Visible;
             if (!DataLists.AddPit(pit))
             {
                 MsgLabel.ShowMessage("Can't send pit to server.\nPlease check your internet connection.", true);
@@ -81,6 +81,7 @@ namespace ScoutingApp
 
         private bool ValidInput()
         {
+            MsgLabel.Visibility = Visibility.Collapsed;
             return !IsAutoDescriptionEmpty() &&
                    !string.IsNullOrEmpty(SelectedChassis()) &&
                    int.TryParse(TeamNumber.Text, out _) &&

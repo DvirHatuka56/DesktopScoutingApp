@@ -149,3 +149,5 @@ C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\obj\Debug\DesktopSco
 C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\obj\Debug\ScoutingApp.exe.manifest
 C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\obj\Debug\ScoutingApp.application
 C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\obj\Debug\DesktopScoutingApp.csproj.CopyComplete
+C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\obj\Debug\DebugWindow.baml
+C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\obj\Debug\DebugWindow.g.cs

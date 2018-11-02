@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wZH5X1pIQtZT9lbUyO2QiDZDMltPPqSME/8aTikJ9+Q=</dsig:DigestValue>
+        <dsig:DigestValue>1jWbR6YBeUXyyuMZCga7ZhsxjdwoyxfkYopLLI8WYpk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScoutingApp.exe" size="460264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScoutingApp.exe" size="462312">
       <assemblyIdentity name="ScoutingApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>a/aM2t4La8MlpFULUhcIkB0GYPGwH8swUjgRfYpvDnE=</dsig:DigestValue>
+        <dsig:DigestValue>h3I5flm/wN5VBfRtBMkT5EU1ASHX9t22Sjyofl7e7lM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

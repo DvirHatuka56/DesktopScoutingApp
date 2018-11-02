@@ -1,18 +1,7 @@
 ﻿using ScoutingClassesLib.Classes;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ScoutingApp
 {
@@ -36,6 +25,7 @@ namespace ScoutingApp
 
 		private void UpdateList()
 		{
+			MsgLabel.Visibility = Visibility.Visible;
 			(string msg, bool err) = DataLists.UpdatePitList();
 			MsgLabel.ShowMessage(msg, err);
 			CustomListView.ItemList.Children.Clear();
@@ -53,6 +43,7 @@ namespace ScoutingApp
 
 		private void DetailsButtonOnClick(object sender, RoutedEventArgs e)
 		{
+			MsgLabel.Visibility = Visibility.Collapsed;
 			CustomListViewColumn column = (CustomListViewColumn)sender;
 			int idx = CustomListView.ItemList.Children.IndexOf(column);
 			Pit pit = DataLists.GetPits()[idx];

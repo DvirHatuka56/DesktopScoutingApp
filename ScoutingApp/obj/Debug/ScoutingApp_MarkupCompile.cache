@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\DVIR H\Source\Repos\DesktopScoutingApp\ScoutingApp\App.xaml
-131576040032
+14-420221563
 2-1283503020
-2335568293
+20-2072396091
 126-47648968
-AddGame.xaml;AddPit.xaml;CustomListView.xaml;CustomListViewColumn.xaml;CustomSlider.xaml;GameDetails.xaml;LogIn.xaml;MainWindow.xaml;MsgLabel.xaml;GameTab.xaml;PitDetails.xaml;PitTab.xaml;SettingsWindow.xaml;
+AddGame.xaml;AddPit.xaml;CustomListView.xaml;CustomListViewColumn.xaml;CustomSlider.xaml;DebugWindow.xaml;GameDetails.xaml;LogIn.xaml;MainWindow.xaml;MsgLabel.xaml;GameTab.xaml;PitDetails.xaml;PitTab.xaml;SettingsWindow.xaml;
 
-True
+False
 
