@@ -22,6 +22,7 @@ namespace ScoutingApp
 
         private void UpdateList()
         {
+            MsgLabel.Visibility = Visibility.Visible;
             (string msg, bool err) = DataLists.UpdateGameList();
             MsgLabel.ShowMessage(msg, err);
             CustomListView.ItemList.Children.Clear();
@@ -39,6 +40,7 @@ namespace ScoutingApp
 
         private void DetailsButtonOnClick(object sender, RoutedEventArgs e)
         {
+            MsgLabel.Visibility = Visibility.Collapsed;
             CustomListViewColumn column = (CustomListViewColumn)sender;
             int idx = CustomListView.ItemList.Children.IndexOf(column);
             Game game = DataLists.GetGames()[idx];
