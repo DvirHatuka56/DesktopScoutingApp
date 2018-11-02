@@ -26,29 +26,29 @@ namespace ScoutingApp
 
             if (!DataLists.AddPit(pit))
             {
-                MsgLabel.ShowMessage("Can't send game to server.\nPlease check your internet connection.", true);
+                MsgLabel.ShowMessage("Can't send pit to server.\nPlease check your internet connection.", true);
             }
             else
             {
-                MsgLabel.ShowMessage("Game has successfully saved!", false);
+                MsgLabel.ShowMessage("Pit has successfully saved!", false);
             }
         }
 
         private bool IsAutoDescriptionEmpty()
         {
-            if (AutoDiscription == null) return true;
-            if (AutoDiscription != null && AutoDiscription.Document.Blocks.Count == 0)
+            if (AutoDescription == null) return true;
+            if (AutoDescription != null && AutoDescription.Document.Blocks.Count == 0)
                 return true;
             var startPointer =
-                AutoDiscription.Document.ContentStart.GetNextInsertionPosition(LogicalDirection.Forward);
+                AutoDescription.Document.ContentStart.GetNextInsertionPosition(LogicalDirection.Forward);
             var endPointer =
-                AutoDiscription.Document.ContentEnd.GetNextInsertionPosition(LogicalDirection.Backward);
+                AutoDescription.Document.ContentEnd.GetNextInsertionPosition(LogicalDirection.Backward);
             return startPointer != null && endPointer != null && startPointer.CompareTo(endPointer) == 0;
         }
 
         private string AutoDescriptionContent()
         {
-            return new TextRange(AutoDiscription.Document.ContentStart, AutoDiscription.Document.ContentEnd).Text;
+            return new TextRange(AutoDescription.Document.ContentStart, AutoDescription.Document.ContentEnd).Text;
         }
 
         private string SelectedChassis()
@@ -94,7 +94,7 @@ namespace ScoutingApp
 
         private void AutoDescription_OnTextChanged(object sender, TextChangedEventArgs e)
         {
-            AutoDiscription.Background = IsAutoDescriptionEmpty() ? Brushes.OrangeRed : Brushes.White;
+            AutoDescription.Background = IsAutoDescriptionEmpty() ? Brushes.OrangeRed : Brushes.White;
             SubmitButton.IsEnabled = ValidInput();
         }
     }

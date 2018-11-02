@@ -1,48 +1,48 @@
 ﻿<Page x:Class="ScoutingApp.AddPit"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:scoutingApp="clr-namespace:ScoutingApp"
-             Width="250">
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:scoutingApp="clr-namespace:ScoutingApp"
+      Width="250">
     <Page.Content>
         <StackPanel>
-            <scoutingApp:MsgLabel x:Name="MsgLabel"/>
+            <scoutingApp:MsgLabel x:Name="MsgLabel" />
             <TextBox Name="TeamNumber"
                      Text="Enter team number"
-                     TextChanged="TextBox_OnTextChanged"/>
-            
+                     TextChanged="TextBox_OnTextChanged" />
+
             <CheckBox Name="MiddleAuto"
-                      Content="? Has middle autonomus"
+                      Content="? Has middle autonomous"
                       FlowDirection="RightToLeft"
-                      HorizontalAlignment="Center"/>
+                      HorizontalAlignment="Center" />
             <CheckBox Name="ClimbAble"
                       Content="?Climb"
                       FlowDirection="RightToLeft"
                       HorizontalAlignment="Center"
-                      Margin="0, 15, 0, 0"/>
-            
+                      Margin="0, 15, 0, 0" />
+
             <TextBox Name="AutoOptions"
-                     Text="How many possible autonomouses"
-                     TextChanged="TextBox_OnTextChanged"/>
-                     
-            <Label Content="Enter Autonomous DiscrDefaultIption"/>
-            <RichTextBox Name="AutoDiscription"
-                         TextChanged="AutoDescription_OnTextChanged"/>
-                     
+                     Text="How many possible autonomous"
+                     TextChanged="TextBox_OnTextChanged" />
+
+            <Label Content="Enter Autonomous Description" />
+            <RichTextBox Name="AutoDescription"
+                         TextChanged="AutoDescription_OnTextChanged" />
+
             <RadioButton Name="Tank"
                          Content="Tank"
-                         Checked="Chassis_OnChecked"/>
+                         Checked="Chassis_OnChecked" />
             <RadioButton Name="Mechanom"
                          Content="Mechanom"
-                         Checked="Chassis_OnChecked"/>
+                         Checked="Chassis_OnChecked" />
             <RadioButton Name="Omni"
                          Content="Omni"
-                         Checked="Chassis_OnChecked"/>
-             
+                         Checked="Chassis_OnChecked" />
+
             <Button Content="Submit"
                     Margin="10"
                     Name="SubmitButton"
                     IsEnabled="False"
-                    Click="Button_Click"/>
+                    Click="Button_Click" />
         </StackPanel>
     </Page.Content>
 </Page>
