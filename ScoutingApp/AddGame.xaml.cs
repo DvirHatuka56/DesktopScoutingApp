@@ -37,7 +37,7 @@ namespace ScoutingApp
                 Missions = GetSelectedMission(),
                 Stability = StabilitySlider.GetIntValue()
             };
-
+            MsgLabel.Visibility = Visibility.Visible;
             if (!DataLists.AddGame(game))
             {
                 MsgLabel.ShowMessage("Can't send game to server.\nPlease check your internet connection.", true);
@@ -111,6 +111,7 @@ namespace ScoutingApp
 
         private bool AllowSubmit()
         {
+            MsgLabel.Visibility = Visibility.Collapsed;
             return int.TryParse(TeamNumber.Text, out _) && 
                    int.TryParse(GameNumber.Text, out _) &&
                    !IsRichTextBoxEmpty(AutoDiscription) &&
