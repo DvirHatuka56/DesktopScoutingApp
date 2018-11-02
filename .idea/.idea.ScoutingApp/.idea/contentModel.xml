@@ -23,6 +23,8 @@
         <e p="CustomSlider.xaml" t="Include" />
         <e p="CustomSlider.xaml.cs" t="Include" />
         <e p="DataLists.cs" t="Include" />
+        <e p="DebugWindow.xaml" t="Include" />
+        <e p="DebugWindow.xaml.cs" t="Include" />
         <e p="DesktopScoutingApp.csproj" t="IncludeRecursive" />
         <e p="GameDetails.xaml" t="Include" />
         <e p="GameDetails.xaml.cs" t="Include" />

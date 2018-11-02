@@ -56,7 +56,8 @@ namespace ScoutingApp
         {
             (var update, string time) = Connections.LoadGames(lastUpdateGame);
             lastUpdateGame = time;
-            if (update?[0] == null) return ("Error", true);
+            if (update == null) return ("Error", true);
+            if (update.Count == 0) return ("Nothing to update...", false);
             foreach (var game in update)
             {
                 Games.Add(game);

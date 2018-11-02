@@ -1,11 +1,8 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Sockets;
-using System.Text;
 using ScoutingClassesLib.Classes;
 using Client;
-using Newtonsoft.Json;
 
 namespace ScoutingApp
 {
@@ -81,19 +78,13 @@ namespace ScoutingApp
                 client.SendMessage(uploadRequestMessage.ToString());
                 
                 var update = new List<Game>();
-                var resps = client.ReceiveMessage().Split('|');
-                new DebugWindow($"{lastUpdate}{Environment.NewLine}" +
-                                $"{resps.Length}{Environment.NewLine}" + 
-                                $"{Indent(resps[0])}{Environment.NewLine}" + 
-                                $"{Indent(resps[1])}").ShowDialog();
-                foreach (var resp in resps)
+                var resp = new ResponseMessage();
+                while (!resp.Message.Equals("End"))
                 {
-                    if (string.IsNullOrEmpty(resp)) continue;
-                    var response = ResponseMessage.ToResponse(resp);
-                    if (response.Message != "")
-                    {
-                        update.Add(Game.Deserialize(response.Content));
-                    }
+                    resp = ResponseMessage.ToResponse(client.ReceiveMessage());
+                    client.SendMessage("...");
+                    if (resp.Message.Equals("End")) break;
+                    update.Add(Game.Deserialize(resp.Content));
                 }
 
                 return (update, DateTime.Now.ToString("HH:mm:ss tt"));
