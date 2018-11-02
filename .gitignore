@@ -5,4 +5,4 @@
 /ScoutingApp/Images
 /ScoutingApp/ScoutingApp_TemporaryKey.pf1x
 /ScoutingApp/DebugWindow.xaml
-/ScoutingApp/DebugWindow.cs
+ScoutingApp/DebugWindow.xaml.cs
