@@ -34,11 +34,15 @@
             </Expander>
             <StackPanel Grid.Column="1">
                 <local:MsgLabel x:Name="MsgLabel" />
-                <Button Click="DataListsOnGameListChanged"
+                <ScrollViewer>
+                    <StackPanel>
+                        <Button Click="DataListsOnGameListChanged"
                         Content="Refresh"
                         MinWidth="200" />
-                <local:CustomListView x:Name="CustomListView"
+                        <local:CustomListView x:Name="CustomListView"
                                       HorizontalAlignment="Center" />
+                    </StackPanel>
+                </ScrollViewer>
             </StackPanel>
             <Expander Grid.Column="2" IsExpanded="True"
                       ExpandDirection="Right">
