@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Sockets;
 using ScoutingClassesLib.Classes;
 using Client;
@@ -18,7 +19,7 @@ namespace ScoutingApp
                     Password = Settings.Password,
                     Request = "Hello",
                     Type = "Game",
-                    Time = DateTime.Now.ToString("HH:mm:ss tt")
+                    Time = DateTime.Now.ToString("HH:mm:ss dd")
                 };
                 ClientSocket client = new ClientSocket(Settings.Ip, Settings.Port);
                 client.SendMessage(invalidRequestMessage.ToString());
@@ -45,7 +46,7 @@ namespace ScoutingApp
                     Request = "Upload",
                     Type = type,
                     Content = type.Equals("Game") ? ((Game) data).Serialize() : ((Pit) data).Serialize(),
-                    Time = DateTime.Now.ToString("HH:mm:ss tt")
+                    Time = DateTime.Now.ToString("HH:mm:ss dd")
                 };
                 ClientSocket client = new ClientSocket(Settings.Ip, Settings.Port);
                 client.SendMessage(uploadRequestMessage.ToString());
@@ -72,22 +73,22 @@ namespace ScoutingApp
                     Request = "Load",
                     Type = "Game",
                     Content = lastUpdate,
-                    Time = DateTime.Now.ToString("HH:mm:ss tt")
+                    Time = DateTime.Now.ToString("HH:mm:ss dd")
                 };
                 ClientSocket client = new ClientSocket(Settings.Ip, Settings.Port);
                 client.SendMessage(uploadRequestMessage.ToString());
                 
                 var update = new List<Game>();
-                var resp = new ResponseMessage();
-                while (!resp.Message.Equals("End"))
+                var responses = GetResponses(ReceiveFullMsg(client));
+                foreach (var resp in responses)
                 {
-                    resp = ResponseMessage.ToResponse(client.ReceiveMessage());
-                    client.SendMessage("...");
-                    if (resp.Message.Equals("End")) break;
-                    update.Add(Game.Deserialize(resp.Content));
+                    if (!ResponseMessage.ToResponse(resp).Message.Equals("End"))
+                    {
+                        update.Add(Game.Deserialize(ResponseMessage.ToResponse(resp).Content));
+                    }
                 }
-
-                return (update, DateTime.Now.ToString("HH:mm:ss tt"));
+                
+                return (update, DateTime.Now.ToString("HH:mm:ss dd"));
             }
             catch (SocketException)
             {
@@ -98,7 +99,24 @@ namespace ScoutingApp
                 return (null, lastUpdate);
             }
         }
+        
+        private static string ReceiveFullMsg(ClientSocket client)
+        {
+            var resp = "";
+            while (!resp.Contains("|||"))
+            {
+                resp += client.ReceiveMessage();
+            }
+            return resp;
+        }
 
+        private static string[] GetResponses(string msg)
+        {
+            msg = msg.Replace("|||", "");
+            var responses = msg.Split('#');
+            return responses;
+        }
+        
         public static (List<Pit>, string) LoadPits(string lastUpdate)
         {
             try
@@ -110,22 +128,22 @@ namespace ScoutingApp
                     Request = "Load",
                     Type = "Pit",
                     Content = lastUpdate,
-                    Time = DateTime.Now.ToString("HH:mm:ss tt")
+                    Time = DateTime.Now.ToString("HH:mm:ss dd")
                 };
                 ClientSocket client = new ClientSocket(Settings.Ip, Settings.Port);
                 client.SendMessage(uploadRequestMessage.ToString());
                 
                 var update = new List<Pit>();
-                var resp = new ResponseMessage();
-                while (!resp.Message.Equals("End"))
+                var responses = GetResponses(ReceiveFullMsg(client));
+                foreach (var resp in responses)
                 {
-                    resp = ResponseMessage.ToResponse(client.ReceiveMessage());
-                    client.SendMessage("...");
-                    if (resp.Message.Equals("End")) break;
-                    update.Add(Pit.Deserialize(resp.Content));
+                    if (!ResponseMessage.ToResponse(resp).Message.Equals("End"))
+                    {
+                        update.Add(Pit.Deserialize(ResponseMessage.ToResponse(resp).Content));
+                    }
                 }
 
-                return (update, DateTime.Now.ToString("HH:mm:ss tt"));
+                return (update, DateTime.Now.ToString("HH:mm:ss dd"));
             }
             catch (SocketException)
             {

@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScoutingApp.exe" size="462312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScoutingApp.exe" size="462824">
       <assemblyIdentity name="ScoutingApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>h3I5flm/wN5VBfRtBMkT5EU1ASHX9t22Sjyofl7e7lM=</dsig:DigestValue>
+        <dsig:DigestValue>XTQnh8+lOzyeY3YQL+OYmzBS4jVpoBAi4Y5zHs/sKf4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
